@@ -5,15 +5,15 @@ This tutorial will guide you through GenAI4SAP deployment.
 
 Click the **Start** button to move to the next step.
 
-### **Filling config.ini file**
+## **Filling config.ini file**
 
 Let's fill the config.ini file to run the setup.
 
-<walkthrough-editor-open-file filePath="~/cloudshell_open/GenAI4SAP/config.ini">OPEN config.ini in Cloud Editor</walkthrough-editor-open-file>
+<walkthrough-editor-open-file filePath="~/GenAI4SAP/config.ini">OPEN config.ini in Cloud Editor</walkthrough-editor-open-file>
 
-Fill the config.ini file with your data:
+Fill the config.ini file with your data
 
-### **Running the automatic setup**
+## **Running the automatic setup**
 
 Simply run this command in Cloud Shell:
 
