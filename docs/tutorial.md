@@ -9,12 +9,11 @@ Click the **Start** button to move to the next step.
 
 Let's fill the config.ini file to run the setup.
 
-Click on button 'Open Editor' in cloud shell.
+<walkthrough-editor-open-file filePath="~/cloudshell_open/GenAI4SAP/config.ini">OPEN config.ini in Cloud Editor</walkthrough-editor-open-file>
 
 Fill the config.ini file with your data:
 
 ### **Running the automatic setup**
-
 
 Simply run this command in Cloud Shell:
 
