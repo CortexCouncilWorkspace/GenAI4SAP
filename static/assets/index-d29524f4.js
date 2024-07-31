@@ -3392,7 +3392,7 @@ function Jr(r) {
         c = Gt(l, r, r[0], null);
     return {
         c() {
-            e = E("li"), n = E("img"), o = Z(), i = E("div"), c && c.c(), or(n.src, t = "/CorAv2Streamlit.png") || v(n, "src", t), v(n, "class", "flex-shrink-0 w-[2.375rem] h-[2.375rem] "), v(n, "alt", "agent logo"), v(i, "class", "space-y-3 overflow-x-auto overflow-y-hidden"), v(e, "class", "max-w-4xl py-2 px-4 sm:px-6 lg:px-8 mx-auto flex gap-x-2 sm:gap-x-4")
+            e = E("li"), n = E("img"), o = Z(), i = E("div"), c && c.c(), or(n.src, t = "CorAv2Streamlit.png") || v(n, "src", t), v(n, "class", "flex-shrink-0 w-[2.375rem] h-[2.375rem] "), v(n, "alt", "agent logo"), v(i, "class", "space-y-3 overflow-x-auto overflow-y-hidden"), v(e, "class", "max-w-4xl py-2 px-4 sm:px-6 lg:px-8 mx-auto flex gap-x-2 sm:gap-x-4")
         },
         m(a, d) {
             U(a, e, d), w(e, n), w(e, o), w(e, i), c && c.m(i, null), s = !0
@@ -3455,7 +3455,7 @@ function eo(r) {
         }
     }), {
         c() {
-            e = E("li"), n = E("img"), o = Z(), i = E("div"), J(s.$$.fragment), or(n.src, t = "/CorAv2Streamlit.png") || v(n, "src", t), v(n, "class", "flex-shrink-0 w-[2.375rem] h-[2.375rem] animate-bounce "), v(n, "alt", "agent logo"), v(i, "class", "space-y-3"), v(e, "class", "max-w-4xl py-2 px-4 sm:px-6 lg:px-8 mx-auto flex gap-x-2 sm:gap-x-4")
+            e = E("li"), n = E("img"), o = Z(), i = E("div"), J(s.$$.fragment), or(n.src, t = "CorAv2Streamlit.png") || v(n, "src", t), v(n, "class", "flex-shrink-0 w-[2.375rem] h-[2.375rem] animate-bounce "), v(n, "alt", "agent logo"), v(i, "class", "space-y-3"), v(e, "class", "max-w-4xl py-2 px-4 sm:px-6 lg:px-8 mx-auto flex gap-x-2 sm:gap-x-4")
         },
         m(c, a) {
             U(c, e, a), w(e, n), w(e, o), w(e, i), F(s, i, null), l = !0

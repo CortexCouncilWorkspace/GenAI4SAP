@@ -223,13 +223,13 @@ def get_question_history():
 
 @app.route('/api/v0/setup_train', methods=['POST'])
 def setup_train():
-    project_id = flask.request.json.get('project_id')
-    dataset_id = flask.request.json.get('dataset_id')
-    table_list = flask.request.json.get('table_list')
-    if project_id and dataset_id is None:
+    project_id_api = flask.request.json.get('project_id')
+    dataset_id_api = flask.request.json.get('dataset_id')
+    table_list_api = flask.request.json.get('table_list')
+    if project_id_api and dataset_id_api is None:
         return jsonify({"type": "error", "error": "No project/dataset provided"})
-    if project_id and dataset_id is not None:
-        schema_query = f"""SELECT table_catalog, table_schema, table_name, column_name, data_type, description as `comment` FROM `{project_id}.{dataset_id}.INFORMATION_SCHEMA.COLUMN_FIELD_PATHS` WHERE table_name in ({table_list})"""
+    if project_id_api and dataset_id_api is not None:
+        schema_query = f"""SELECT table_catalog, table_schema, table_name, column_name, data_type, description as `comment` FROM `{project_id_api}.{dataset_id_api}.INFORMATION_SCHEMA.COLUMN_FIELD_PATHS` WHERE table_name in ({table_list_api})"""
         df_information_schema = vn.run_sql(schema_query)
         plan = vn.get_training_plan_generic(df_information_schema)
         plan
